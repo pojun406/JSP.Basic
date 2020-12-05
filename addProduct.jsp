@@ -71,13 +71,7 @@
 					<input type="text" name="category" class="form-control">
 				</div>
 			</div>
-				<div class="form-group row">
-				<label class="col-sm-2">재고 수</label>
-				<div class="col-sm-3">
-					<input type="text" name="unitsInStock" class="form-control">
-				</div>
-			</div>
-				<div class="form-group row">
+			<div class="form-group row">
 				<label class="col-sm-2">상태</label>
 				<div class="col-sm-5">
 					<input type="radio" name="condition" value="New ">신규제품
