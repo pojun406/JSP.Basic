@@ -32,13 +32,13 @@
 				<div class="col-sm-3">
 					<input type="text" name="unitPrice" class="form-control">
 				</div>
+			</div>
 
 			<div class="form-group row"> 
 				<label class="col-sm-2">상세 정보</label>
 				<div class="col-sm-5">
 					<textarea name="description" cols="50" rows="2" class="form-control"></textarea>
 				</div>
-			</div>
 			</div>
 			<div class="form-group row">
 				<label class="col-sm-2">제조사</label>
