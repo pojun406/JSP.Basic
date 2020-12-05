@@ -10,8 +10,8 @@
 
    String filename = "";
    String realFolder = "D:\\upload";   //웹어플리케이션의 절대경로
-   String encType = "utf-8";      //인코딩유형
-   int maxSize = 5*1024*1024;      //최대 업로드도리 파이르이 크기 5MB
+   String encType = "utf-8";
+   int maxSize = 5*1024*1024;      //최대 업로드될 파일의 크기 5MB
    
    
    MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType, new DefaultFileRenamePolicy());
@@ -41,7 +41,7 @@
        stock = Long.valueOf(unitsInStock);
     
     Enumeration files = multi.getFileNames();
-    String fname = (String)files.nextElement();    // String 타입변환
+    String fname = (String)files.nextElement();    //타입변환 String 
     String fileName = multi.getFilesystemName(fname);
        
     ProductRepository dao = ProductRepository.getInstance();
